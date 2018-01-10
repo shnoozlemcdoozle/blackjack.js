@@ -17,7 +17,7 @@ var autoPlay = {};
     autoPlay.on = false;
     autoPlay.wins = 0;
     autoPlay.losses = 0;
-    autoPlay.goal = 255;
+    autoPlay.goal = 205;
 
     autoPlay.sittingReport = function() {
         console.clear();
