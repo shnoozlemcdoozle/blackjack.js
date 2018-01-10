@@ -10,7 +10,7 @@
 *****************************************/
 
 var settings = {
-    startingAmount: 1000,
+    startingAmount: 155,
     defaultBet: 5,
     decks: 6,
     clearOnStart: true,
