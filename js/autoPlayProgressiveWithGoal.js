@@ -17,7 +17,7 @@ var autoPlay = {};
     autoPlay.on = false;
     autoPlay.wins = 0;
     autoPlay.losses = 0;
-    autoPlay.goal = 205;
+    autoPlay.goal = 255;
 
     autoPlay.sittingReport = function() {
         console.clear();
@@ -104,7 +104,7 @@ var autoPlay = {};
                 setTimeout(function() {
                     
                     // This is the progressive part
-                    var doubledBet = parseInt(amount) * 2;
+                    var doubledBet = parseInt(amount);
 
                     if (blackjack.bank.amount < 5) {
                         autoPlay.losses++;
