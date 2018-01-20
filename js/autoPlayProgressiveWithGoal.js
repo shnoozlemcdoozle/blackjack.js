@@ -104,7 +104,7 @@ var autoPlay = {};
                 setTimeout(function() {
                     
                     // This is the progressive part
-                    var doubledBet = parseInt(amount);
+                    var doubledBet = parseInt(amount) * 2;
 
                     if (blackjack.bank.amount < 5) {
                         autoPlay.losses++;
