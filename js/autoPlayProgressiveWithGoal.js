@@ -12,12 +12,12 @@ var autoPlay = {};
 
 (function(autoPlay) {
 
-    autoPlay.defaultBet = 5;
+    autoPlay.defaultBet = 10;
     autoPlay.speed = 0;
     autoPlay.on = false;
     autoPlay.wins = 0;
     autoPlay.losses = 0;
-    autoPlay.goal = 205;
+    autoPlay.goal = 240;
 
     autoPlay.sittingReport = function() {
         console.clear();
@@ -27,7 +27,7 @@ var autoPlay = {};
 
     autoPlay.startNewSitting = function() {
         settings.consoleLog = false;
-        blackjack.bank.amount = 155;
+        blackjack.bank.amount = 100;
         settings.clearOnStart = false;
         autoPlay.on = true;
         play(autoPlay.defaultBet);
