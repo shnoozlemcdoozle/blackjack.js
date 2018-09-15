@@ -11,8 +11,6 @@
 var autoPlay = {};
 
 (function(autoPlay) {
-    
-    alert(autoPlay.goal);
 
     autoPlay.defaultBet = 5;
     autoPlay.speed = 0;
